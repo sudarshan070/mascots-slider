@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './media/style/style.scss'
+import './assets/style/style.scss'
 
 
 ReactDOM.render(
