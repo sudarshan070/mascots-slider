@@ -19,48 +19,18 @@ export default function Slider() {
   const switchFn = (count) => {
     switch (count) {
       case 1:
-        return (
-          <FirstSlider
-            count={count}
-            setCount={updateCount}
-            preveCount={preveCount}
-          />
-        );
+        return <FirstSlider setCount={updateCount} preveCount={preveCount} />;
 
       case 2:
-        return (
-          <SecondSlider
-            count={count}
-            setCount={updateCount}
-            preveCount={preveCount}
-          />
-        );
+        return <SecondSlider setCount={updateCount} preveCount={preveCount} />;
 
       case 3:
-        return (
-          <ThirdSlider
-            count={count}
-            setCount={updateCount}
-            preveCount={preveCount}
-          />
-        );
+        return <ThirdSlider setCount={updateCount} preveCount={preveCount} />;
       case 4:
-        return (
-          <FourthSlider
-            count={count}
-            setCount={updateCount}
-            preveCount={preveCount}
-          />
-        );
+        return <FourthSlider setCount={updateCount} preveCount={preveCount} />;
 
       case 5:
-        return (
-          <FifthSlider
-            count={count}
-            setCount={updateCount}
-            preveCount={preveCount}
-          />
-        );
+        return <FifthSlider setCount={updateCount} preveCount={preveCount} />;
 
       default:
         break;
