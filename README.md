@@ -1,0 +1,2 @@
+# Mascots Image Slider
+
